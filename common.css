@@ -2,26 +2,31 @@
     text-align: center;
 }
 
-.explainBox {
+div.explainBox {
     text-align: left;
-    font-size: 3em;
+    /*font-size: 3em;*/
+    font-size: 1vw;
 }
 
-.wearImage {
+img.wearImage {
     width: 80%;
 }
 
-.screenImage {
+img.screenImage {
     width: 70%;
 }
 
-.imageTd {
+td.imageTd {
     width: 50%;
 }
 
-.explainTd {
+td.explainTd {
     width: 50%;
     vertical-align: text-top;
+}
+
+body {
+    font-size: 100%;
 }
 
 h1 {
