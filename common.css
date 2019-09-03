@@ -4,8 +4,7 @@
 
 div.explainBox {
     text-align: left;
-    /*font-size: 3em;*/
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 img.wearImage {
@@ -34,9 +33,9 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 3em;
+    font-size: 1em;
 }
