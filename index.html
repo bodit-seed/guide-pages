@@ -6,14 +6,15 @@
     <title>Index</title>
     <link href="common.css" rel="stylesheet" type="text/css">
     <style>
-        body {
+        html,body {
+            overflow-x: hidden;
             background: #eaecee;
         }
 
         * {
-            list-style:none;
-            padding:0;
-            margin:0;
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
 
         h2 {
@@ -21,51 +22,50 @@
         }
 
         ul {
-            border-top:1px solid darkgray;
-            width:100%;
+            border-top: 1px solid darkgray;
+            width: 100%;
             background: white;
         }
 
         li {
-            border:1px solid darkgray;
-            border-top:none;
-            margin:-1px;
-            height: 50px;
+            border-bottom: 1px solid darkgray;
             background: url("./resources/morethan.png") 99% center no-repeat;
-            position: relative;
-        }
-
-        li:focus {
-            background-color: #525252;
         }
 
         li div a {
-            position: absolute;
-            padding-left: 1em;
             display: block;
-            width: 100%;
-            height: 50px;
-            line-height: 50px;
+            padding: 15px;
             text-decoration: none;
             color: black;
         }
 
         li div a:active {
-            background-color: #525252;
+            background-color: lightgray;
         }
-
     </style>
 </head>
 
 <body>
 <h2>目次</h2>
-<ul id="guides">
-    <li><div><a href="how-to-use.html">機器の動作</a></div></li>
-    <li><div><a href="how-to-wear.html">着用方法</a></div></li>
-    <li><div><a href="app-guide-flower.html">App Guide - Flower</a></div></li>
-    <li><div><div><a href="app-guide-posture-history.html">App Guide - Posture History</a></div></li>
-    <li><div><a href="app-guide-step-history.html">App Guide - Step History</a></div></li>
-    <li><div><a href="app-guide-lab.html">App Guide - Lab</a></div></li>
+<ul>
+    <li>
+        <div><a href="how-to-use.html">機器の動作</a></div>
+    </li>
+    <li>
+        <div><a href="how-to-wear.html">着用方法</a></div>
+    </li>
+    <li>
+        <div><a href="app-guide-flower.html">App Guide - Flower</a></div>
+    </li>
+    <li>
+        <div><a href="app-guide-posture-history.html">App Guide - Posture History</a></div>
+    </li>
+    <li>
+        <div><a href="app-guide-step-history.html">App Guide - Step History</a></div>
+    </li>
+    <li>
+        <div><a href="app-guide-lab.html">App Guide - Lab</a></div>
+    </li>
 </ul>
 </body>
 </html>
