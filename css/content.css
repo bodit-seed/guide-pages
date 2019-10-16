@@ -20,7 +20,9 @@ img.wearImage {
 
 img.screenImage {
     width: 70%;
+    border: 1px solid darkgray;
 }
+
 
 td.imageTd {
     width: 50%;
@@ -60,20 +62,3 @@ h3 {
     }
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
